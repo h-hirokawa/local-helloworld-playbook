@@ -3,4 +3,5 @@
   connection: local
   tasks:
     - name: Hello World!
-      msg: "Hi! Ansible is working on localhost."
+      debug:
+        msg: "Hi! Ansible is working on localhost."
